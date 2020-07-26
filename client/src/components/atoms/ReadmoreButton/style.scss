@@ -1,0 +1,18 @@
+.readmore__button {
+        min-width: 200px;
+        width: auto;
+        height: 50px;
+        border: none;
+        color: #5b5b5b;
+        font-size: 1.3rem;
+        background: #eceff1;
+        border-radius: 5px;
+        padding-left: 2%;
+        padding-right: 2%;
+        font-weight: lighter;
+}
+
+.readmore__button:hover {
+        background-color: #797979;
+        color: white;
+}

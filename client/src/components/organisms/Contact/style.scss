@@ -1,0 +1,123 @@
+//     xs, extra-small: 0px
+//     sm, small: 600px
+//     md, medium: 960px
+//     lg, large: 1280px
+//     xl, extra-large: 1920px
+
+$xs : 0px;
+$sm : 600px;
+$md : 960px;
+$lg : 1280px;
+$xl : 1920px;
+
+img {
+        width: 100%;
+        height: 100%;
+}
+
+
+.contact {
+        @media screen and (min-width: $xs) {
+                width: 100%;
+                height: auto;
+                background-color: white;
+                padding-top: 5%;
+                padding-bottom: 5%;
+                padding-left: 2%;
+        }
+        @media screen and (min-width: $sm) {
+
+        }
+        @media screen and (min-width: $md) {
+                
+                
+        }
+        @media screen and (min-width: $lg) {
+                padding-top: 5%;
+                padding-bottom: 5%;
+                padding-left: 5%;
+        }
+        @media screen and (min-width: $xl) {
+
+                
+        }
+}
+
+.contact__forms {
+        @media screen and (min-width: $xs) {
+                width: 100%;
+                height: auto;
+                display: flex;
+                flex-direction: column;
+                padding-right: 5%;
+        }
+        @media screen and (min-width: $sm) {
+
+        }
+        @media screen and (min-width: $md) {
+                
+                
+        }
+        @media screen and (min-width: $lg) {
+                
+        }
+        @media screen and (min-width: $xl) {
+
+                
+        }
+}
+
+// Inputs
+.contact__input__data {
+        border: solid 1px #f1f1f1;
+        @media screen and (min-width: $xs) {
+                width: 90%;
+                margin-left: 5%;
+                height: 30px;
+                margin-top: 2%;
+                margin-bottom: 2%;
+        }
+        @media screen and (min-width: $sm) {
+
+        }
+        @media screen and (min-width: $md) {
+                
+                
+        }
+        @media screen and (min-width: $lg) {
+                width: 70%;
+                height: 40px;
+                margin-top: 2%;
+                margin-bottom: 2%;
+                
+        }
+        @media screen and (min-width: $xl) {
+
+                
+        }
+}
+
+.contact__input__contact {
+        border: solid 1px #f1f1f1;
+        @media screen and (min-width: $xs) {
+                width: 90%;
+                margin-left: 5%;
+                margin-right: 5%;
+                margin-top: 2%;
+                margin-bottom: 2%;
+        }
+        @media screen and (min-width: $sm) {
+
+        }
+        @media screen and (min-width: $md) {
+                
+                
+        }
+        @media screen and (min-width: $lg) {
+                width: 85%;
+        }
+        @media screen and (min-width: $xl) {
+
+                
+        }
+}
